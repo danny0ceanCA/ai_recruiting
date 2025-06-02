@@ -9,3 +9,4 @@ redis
 rq
 pytest
 httpx
+alembic==1.13.1
