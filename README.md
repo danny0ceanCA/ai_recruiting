@@ -129,7 +129,18 @@ python scripts/create_admin.py --email admin@demo.com --name Admin --school Demo
 
 ---
 
-## 9 Roadmap
+## 9 Testing
+
+Install dependencies from `vendor/` and run Pytest:
+
+```bash
+./scripts/install_offline_deps.sh
+pytest
+```
+
+---
+
+## 10 Roadmap
 
 - [ ] Complete dashboard & navigation  
 - [ ] Fine‑tune embedding prompt for better matches  
@@ -139,7 +150,7 @@ python scripts/create_admin.py --email admin@demo.com --name Admin --school Demo
 
 ---
 
-## 10 License
+## 11 License
 
 MIT — see [`LICENSE`](./LICENSE).
 
